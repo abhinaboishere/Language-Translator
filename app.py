@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # 🔑 Set your API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDj_CCDMhnNxl2DyWqggE0OJNtP_vwxNqE"
+os.environ["GOOGLE_API_KEY"] = "YOUR_API_KEY"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Detect available models
